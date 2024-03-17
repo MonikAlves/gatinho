@@ -1,4 +1,5 @@
-<h1 align="center"> DevLinks </h1>
+<h1 align="center"> Hermes </h1>
+<p align="center"> **Versão em c** <p>
 
 <p align="center">
 Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
