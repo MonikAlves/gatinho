@@ -21,7 +21,7 @@
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(0, 0, 0, 0.1);
-    --switch-bg: url("/assets/sun.svg");
+  --switch-bg: url("/assets/sun.svg");
 }
 
 body {
@@ -34,6 +34,7 @@ body {
 			background: color image repeat position/size */
 
   background: var(--bg) no-repeat top center/cover;
+  height: 100vh;
 }
 
 body * {
@@ -66,7 +67,7 @@ body * {
 
 /* switch */
 
-#switch{
+#switch {
   position: relative;
   width: 64px;
   margin: 0 auto;
@@ -81,12 +82,12 @@ body * {
   border-radius: 50%;
   position: absolute;
   left: 0;
-  top:50%;
+  top: 50%;
   z-index: 1;
   transform: translatey(-50%);
 }
 
-.light #switch button{
+.light #switch button {
   right: 0;
   left: initial;
 }
@@ -159,4 +160,14 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+
+/* media */
+@media (min-width: 700px) {
+  :root {
+    --bg: url("/assets/bg-desktop.jpg");
+  }
+  .light {
+    --bg: url("/assets/bg-desktop-light.jpg");
+  }
 }
