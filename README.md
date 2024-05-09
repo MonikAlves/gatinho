@@ -1,5 +1,4 @@
-<h1 align="center"> Hermes </h1>
-<p align="center"> **Versão em c** <p>
+<h1 align="center"> Links </h1>
 
 <p align="center">
 Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
